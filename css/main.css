@@ -284,6 +284,9 @@ img {
     -ms-grid-columns: 220px 220px;
         grid-template-columns: 220px 220px;
   }
+  .about-me {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 1050px) {
