@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@100;200;300;400;500;600;700;800;900&display=swap');
 * {
     padding: 0;
     margin: 0;
@@ -5,8 +6,8 @@
 }
 
 body {
-    font-family: 'Montserrat', sans-serif;
-    background-color: #f5f7fa;
+    font-family: 'Urbanist', sans-serif;
+    background: #fff;
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 40px;
@@ -19,14 +20,13 @@ body {
     max-width: 64%;
     min-width: 1200px;
     margin: 0 auto;
-    border-radius: 5px;
-    box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
+    border-radius: 20px;
 }
 
 .sitebar {
     background: #1e2939;
     box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.411);
-    border-radius: 6px;
+    border-radius: 20px;
     width: 370px;
     height: 1240px;
     padding-bottom: 40px;
@@ -35,9 +35,17 @@ body {
 
 .my-photo {
     width: 370px;
-    height: 360px;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
+    height: 370px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.date {
+    font-size: 20px;
+}
+
+.date-birthday {
+    color: #000;
 }
 
 .about-me-container {
@@ -185,11 +193,28 @@ body {
     font-weight: 700;
     box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.281);
     background-color: #f5f7fa;
+    position: relative;
+    a {
+        width: 150px;
+        height: 150px;
+        display: block;
+        overflow: hidden;
+        background-size: cover;
+        border-radius: 20px;
+    }
 }
 
+// .sushi-img {
+//     min-width: 100%;
+//     height: 160px;
+//     margin-left: -70px;
+//     flex-shrink: 0;
+// }
 .card-text {
-    font-size: 14px;
+    font-size: 24px;
+    text-align: center;
     font-weight: 300;
+    height: 70px;
 }
 
 .projects-list {
@@ -198,8 +223,9 @@ body {
 }
 
 .projects-list li {
-    border-radius: 5px;
-    width: 200px;
+    border-radius: 20px;
+    width: 190px;
+    height: 280px;
     margin-bottom: 20px;
     padding: 20px;
 }
@@ -275,7 +301,7 @@ body {
 }
 
 img {
-    border-radius: 5px;
+    border-radius: 20px;
 }
 
 @media screen and (max-width: 1250px) {
@@ -308,7 +334,7 @@ img {
         margin-left: auto;
         margin-right: auto;
     }
-    .projects-list li:nth-child(3n + 1) {
+    .projects-list li:nth-child(3n+1) {
         display: none;
     }
     .about-me-container {
@@ -366,7 +392,7 @@ img {
         list-style: none;
     }
     .projects-list-large li {
-        border-radius: 5px;
+        border-radius: 20px;
         width: 365px;
         margin-bottom: 20px;
         padding: 20px;
