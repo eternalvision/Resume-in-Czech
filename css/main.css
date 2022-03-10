@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Urbanist:wght@100;200;300;400;500;600;700;800;900&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -7,7 +7,7 @@
 }
 
 body {
-  font-family: 'Urbanist', sans-serif;
+  font-family: "Urbanist", sans-serif;
   background: #1e2939;
   padding-left: 20px;
   padding-right: 20px;
@@ -306,112 +306,6 @@ a {
 
 img {
   border-radius: 20px;
-}
-
-@media screen and (max-width: 1250px) {
-  .wrapper {
-    min-width: 1000px;
-  }
-  .projects-list {
-    -ms-grid-columns: 220px 220px;
-    grid-template-columns: 220px 220px;
-  }
-  .about-me {
-    display: none;
-  }
-}
-
-@media screen and (max-width: 1050px) {
-  .wrapper {
-    min-width: 900px;
-  }
-  .about-me-container {
-    padding: 32px;
-  }
-}
-
-@media screen and (max-width: 951px) {
-  .wrapper {
-    min-width: 680px;
-  }
-  .projects-list {
-    -ms-grid-columns: 100px;
-    grid-template-columns: 100px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  .projects-list li:nth-child(3n + 1) {
-    display: none;
-  }
-  .about-me-container {
-    padding: 22px;
-  }
-  .name,
-  .profession {
-    display: none;
-  }
-  .name-second {
-    display: block;
-    color: #fff;
-    font-size: 40px;
-    font-weight: 400;
-    margin-left: 40px;
-    margin-top: 20px;
-  }
-  .about-me-none {
-    display: block;
-    margin-left: 40px;
-    margin-top: 40px;
-  }
-  .about-me {
-    display: none;
-  }
-  .contacts-container {
-    margin-top: 30px;
-  }
-  .about-me-title {
-    color: black;
-  }
-  .about-me-title-second {
-    color: #fff;
-    font-size: 20px !important;
-  }
-  .management {
-    color: rgba(255, 255, 255, 0.746);
-  }
-}
-
-@media screen and (max-width: 750px) {
-  .wrapper {
-    min-width: 415px;
-    height: 3930px;
-  }
-  .description {
-    display: none;
-  }
-  .projects-list,
-  .about-me-container {
-    display: none;
-  }
-  .projects-list-large {
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: 100px;
-    grid-template-columns: 100px;
-    list-style: none;
-  }
-  .projects-list-large li {
-    border-radius: 20px;
-    width: 365px;
-    margin-bottom: 20px;
-    padding: 20px;
-  }
-  .projects-list-large li img {
-    width: 320px;
-  }
-  .projects-list-large li:first-child {
-    margin-top: 50px;
-  }
 }
 
 .profession-state {
