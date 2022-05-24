@@ -313,3 +313,8 @@ img {
   font-weight: 400;
 }
 /*# sourceMappingURL=main.css.map */
+
+.projects-item a img {
+  display: block;
+  margin: 0 auto;
+}
