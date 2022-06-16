@@ -8,7 +8,7 @@
 
 body {
   font-family: "Urbanist", sans-serif;
-  background: #1e2939;
+  background: linear-gradient(18deg, #16161d, #46434d);
   padding-left: 20px;
   padding-right: 20px;
   padding-top: 40px;
@@ -20,7 +20,8 @@ a {
 }
 
 .wrapper {
-  background: #f5f2f2;
+  background: #dddce0;
+
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -31,7 +32,7 @@ a {
 }
 
 .sitebar {
-  background: #1e2939;
+  background: #16161d;
   -webkit-box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.411);
   box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.411);
   border-radius: 20px;
