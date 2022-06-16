@@ -214,7 +214,14 @@ a {
   font-size: 24px;
   text-align: center;
   font-weight: 300;
-  height: 70px;
+  height: 50px;
+}
+
+.text-under-card {
+  font-size: 13px;
+  font-weight: normal;
+  text-align: center;
+  margin-bottom: 10px;
 }
 
 .projects-list {
@@ -318,4 +325,14 @@ img {
   display: block;
   margin: 0 auto;
   max-width: 150px;
+}
+
+.techName {
+  width: 111px;
+  margin: 0 auto;
+}
+
+.techName-2 {
+  margin: 0 auto;
+  width: 145px;
 }
